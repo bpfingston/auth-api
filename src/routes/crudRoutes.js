@@ -52,4 +52,11 @@ async function handleDelete(req, res) {
 }
 
 
-module.exports = router;
+module.exports = {
+  handleGetAll,
+  handleGetOne,
+  handleDelete,
+  handleCreate,
+  handleUpdate,
+  router,
+}
