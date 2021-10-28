@@ -19,15 +19,15 @@ Githut: https://github.com/bpfingston/auth-api
 ## Talk about your routes
 
 routes:
-    - SignIn:
-        - validate user
-        - HTTP POST
-    - SignUp:
-        - Create a new Username and Password
-        - HTTP POST
-    - Secret
-        - Its a secret, can you keep it?
-        - HTTP GET
-    - Users
-        - permissions for individual users.
-        - HTTP GET
+    - SignIn:  
+        - validate user  
+        - HTTP POST  
+    - SignUp:  
+        - Create a new Username and Password  
+        - HTTP POST  
+    - Secret:  
+        - Its a secret, can you keep it?  
+        - HTTP GET  
+    - Users:  
+        - permissions for individual users.  
+        - HTTP GET  
