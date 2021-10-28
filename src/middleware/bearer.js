@@ -15,10 +15,10 @@ module.exports = async (req, res, next) => {
     next();
 
   } catch (e) {
-    _authError();
+    _authError()
   }
 
   function _authError() {
-    next('Invalid Login');
+    res.status(403).send('Invalid Login');;
   }
 }

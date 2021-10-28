@@ -7,10 +7,9 @@
     "start": "node index.js",
     "init:config": "sequelize init:config",
     "db:create": "sequelize db:create",
-    "lint": "eslint **/*.js",
     "watch": "nodemon index.js",
-    "test-watch": "jest --watchAll --coverage --verbose",
-    "test": "jest --coverage"
+    "test-watch": "jest --watchAll --coverage",
+    "test": "jest --coverage --verbose"
   },
   "jest": {
     "testEnvironment": "node"
