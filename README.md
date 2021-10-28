@@ -5,20 +5,20 @@ Created by Bryce Pfingston
 npm i { jest, express, dotenv, supertest, pg, sequelize, sqlite3, seqluelize-cli, bcrypt, base64, jsonwebtoken, cors, morgan, method-override }  
   
 ## Summary of Problem Domain  
-Deploy an Express server that implements Basic Authentication, with signup and signin capabilities, using a Postgres database for storage.  
+integrating an api-server and an authorization server into one giant back end. 
 
 
 ## Links to application deployment  
  
-Heroku: https://bearer-auth-bryce.herokuapp.com/ 
-Githut: https://github.com/bpfingston/bearer-auth
+Heroku: https://auth-api-bryce.herokuapp.com/
+Githut: https://github.com/bpfingston/auth-api
   
 ## Include embedded UML
 ![embedded UML](./images/devpath.png)
 
 ## Talk about your routes
 
-sign-in:
+routes:
     - SignIn:
         - validate user
         - HTTP POST
@@ -26,3 +26,8 @@ sign-in:
         - Create a new Username and Password
         - HTTP POST
     - Secret
+        - Its a secret, can you keep it?
+        - HTTP GET
+    - Users
+        - permissions for individual users.
+        - HTTP GET
